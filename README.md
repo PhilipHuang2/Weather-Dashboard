@@ -1,25 +1,27 @@
 # Weather-Dashboard
-Getting data from Open Weather API
+This app takes in information about a potential city and outputs the longitude and latitude of it on the right hand side.
+
+I dunno, I really messed up on this project.  I had a blockage for 3 days straight, and I never tried to break through it.
+
+shit.
 
 
-## User Story
+# Stack
 
-```
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
-```
+## Jquery
 
-## Acceptance Criteria
+3rd Party Javascript libary to deal with HTML document handling better
 
-```
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the wind speed
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
-```
+## Bootstrap
+
+CSS Framework that makes things pretty.
+
+## Open Weather API
+Geocaching Endpoint
+Given a city name
+output the longitude and latitude
+
+Forecast Endpoint
+Given a longitude, and Latitude
+output the weather data for any numbers of days
+default is 40 days
