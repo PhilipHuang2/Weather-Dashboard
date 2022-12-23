@@ -105,7 +105,7 @@ function populateForecast(list){
     {   
         let day = list[i];
         let card = $('<div>')
-        card.addClass('card')
+        card.addClass('card py-3 px-4 bg-secondary')
         let body = $('<div>')
         body.addClass('card-body')
         let header = $('<h5>')
