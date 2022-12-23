@@ -42,7 +42,7 @@ addressForm.on('click', function(target){
 // Invalid City Name
 function geoEndpoint(name, apiKey = API_KEY)
 {
-    var endpoint = `http://api.openweathermap.org/geo/1.0/direct?q="${name}"&appid=${API_KEY}`;
+    var endpoint = `https://api.openweathermap.org/geo/1.0/direct?q="${name}"&appid=${API_KEY}`;
     fetch(endpoint)
     .then((response) => response.json())
     .then((data)=> {
@@ -115,7 +115,7 @@ function populateForecast(list){
         card.append(header);
         let icon = $('<img>')
         let link = day.weather[0].icon
-        icon.attr("src", `http://openweathermap.org/img/wn/${link}@2x.png`)
+        icon.attr("src", `https://openweathermap.org/img/wn/${link}@2x.png`)
         card.append(icon);
         let temp = $('<p>')
         temp.text("Temp: " + (((day.main.temp-273.15) * 9/5) + 32).toPrecision(4) + "°F")
