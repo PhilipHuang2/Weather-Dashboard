@@ -2,12 +2,14 @@
 After redoing this application, it really impresses me how much development has improved after jquery.  It feels like one of the major development of web development is how to seemlessly swap between CSS, Javascript and HTML.  JQuery is was the first implementation of it where we try to incapsulate HTML into Javascript through function, and that was hard.  Writing complex HTML structures and styling it was cumbersome in JQuery.  Compared to React where they embraced the HTML styling with JSX and allowed more precise styling.  Using the Open Weather API was painless and it was a real suprise when they kicked me out when I used http: rather than https:.  I would need to look into that.
 
 Link:
-![Link to Application](https://philiphuang2.github.io/Weather-Dashboard/)
+[Weather Dashboard](https://philiphuang2.github.io/Weather-Dashboard/)
 
 # Application
 
+![Capture](https://user-images.githubusercontent.com/5439889/209425676-97904e39-0cac-4cd4-9e5c-77ab148c9a58.PNG)
 
 # Stack
+
 
 ## Jquery
 
